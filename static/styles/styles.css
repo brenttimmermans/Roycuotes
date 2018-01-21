@@ -1,0 +1,25 @@
+/* CSS general styles */
+.button {
+  color: #FFF;
+  font-weight: 600;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #444;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button--primary {
+  background-color: #972022;
+}
+
+.button--primary:hover {
+  background-color: #993435;
+}
+
+.button--primary:active {
+  transform: translateY(1px);
+}
