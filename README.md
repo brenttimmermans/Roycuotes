@@ -1,3 +1,3 @@
-# roycuotes
+# Roycuotes
 
-All you favorite Royco flavors! 🥫 🐓 🥗 🍄
+All your favorite Royco flavors! 🥫 🐓 🥗 🍄
