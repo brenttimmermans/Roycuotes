@@ -13,6 +13,5 @@ yarn-error.log*
 *.njsproj
 *.sln
 
-# vercel
-.vercel
-.env*
+# wrangler
+.wrangler
