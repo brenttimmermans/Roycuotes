@@ -1,0 +1,12 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  ci:
+    uses: brenttimmermans/github-actions/.github/workflows/cloudflare-ci.yml@v1
+    secrets: inherit
