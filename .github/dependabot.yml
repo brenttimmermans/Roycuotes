@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: monthly
+    # Let new releases age before proposing them; security updates skip this.
+    cooldown:
+      default-days: 14
+      semver-major-days: 30
+    groups:
+      npm:
+        patterns: ["*"]
